@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Music Production Quiz</title>
+
+<!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">   
+
+<style>
+body {
+	font-family: futura;
+	background: #a49888;
+	color: #dfded5;
+}
+
+
+
+.container-fluid {
+    block-size: 400px;
+	background-image: url("mixer2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+	padding-top: 100px;
+    padding-left: 10%;
+	text-shadow: 2px 2px #000000;
+
+
+}
+
+
+.jud {
+	background: #244669;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+img {
+	border-radius: 5px;
+	padding: 5px;
+
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Are You Smarter Than A Music Producer?</h1>
+        </div>
+    </div>
+
+    <div class="row" >        
+        <div class="col-md-8">
+            <h4>The art of music production has become the most accessible it has ever been to anyone with a laptop. Test your foundational knowledge in music production and see how well you know the basics of creating music. Let's get started! </h4>
+        </div>
+                <div class="col-md-4 ">
+        </div>
+    </div>
+</div>
+
+
+			<form id="form1">
+		<div class="container">
+		  <div class="row jud d-flex justify-content-center">		
+			<h2>What does "DAW" stand for in music production?</h2>
+			<label for="dyno"><input type="radio" name="daw" value="0" id="dyno" />Dynamic Audio Waveform</label>
+			<label for="digital"><input type="radio" name="daw"  value="10" id="digital" />Digital Audio Workstation</label>
+			<label for="drum"><input type="radio" name="daw" value="0" id="drum" />Drum and Bass Workshop</label>
+			<label for="disto"><input type="radio" name="daw" value="0" id="disto" />Distorted Analog Widget</label>
+         </div>
+
+         <div class="row jud d-flex justify-content-center">	
+			<h2>What kind of filter would you use to keep frequency's that are 3kHZ and above?</h2>
+			<label for="high"><input type="radio" name="filter" value="10" id="high"/>Highpass filter</label>
+			<label for="notch"><input type="radio" name="filter" value="0" id="notch"/>Notch filter</label>
+			<label for="band"><input type="radio" name="filter" value="0" id="band" />Bandpass filter</label>
+			<label for="low"><input type="radio" name="filter" value="0" id="low" />Lowpass filter</label>
+         </div>
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>What does EQ stand for in audio production?</h2>
+			<label for="qual"><input type="radio" name="eq" value="0" id="qual" />Equal Quality</label>
+			<label for="equal"><input type="radio" name="eq" value="10" id="equal" />Equalization</label>
+			<label for="echo"><input type="radio" name="eq" value="0" id="echo" />Echo Quality</label>
+			<label for="elec"><input type="radio" name="eq" value="0" id="elec" />Electronic Quantity</label>
+
+         </div>
+
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>Which of the following is used to control the volume of individual tracks in a mix?</h2>
+			<label for="reverb"><input type="radio" name="vol" value="0" id="reverb" />Reverb</label>
+			<label for="metro"><input type="radio" name="vol" value="0" id="metro" />Metronome</label>
+			<label for="comp"><input type="radio" name="vol" value="0" id="comp" />Compressor</label>
+			<label for="mixer"><input type="radio" name="vol"  value="10" id="mixer" />Mixer</label>
+
+         </div>
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>What is the primary function of a pop filter in recording vocals?</h2>
+			<label for="bass"><input type="radio" name="pop" value="0" id="bass" />Enhace bass frequecies</label>
+			<label for="vocal"><input type="radio" name="pop" value="0" id="vocal" />Add reverb to vocals</label>
+			<label for="pitch"><input type="radio" name="pop" value="0" id="pitch" />Increase pitch accuracy</label>
+			<label for="reduce"><input type="radio" name="pop"  value="10" id="reduce" />Reduce plosive sounds like "p" and "b"</label>
+
+         </div>
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>Which audio effect is used to simulate the spatial characteristics of a room or environment?</h2>
+			<label for="chor"><input type="radio" name="space" value="0" id="chor" />Chorus</label>
+			<label for="verb"><input type="radio" name="space"  value="10" id="verb" />Reverb</label>
+			<label for="delay"><input type="radio" name="space" value="0" id="delay" />Delay</label>
+			<label for="eq_eq"><input type="radio" name="space" value="0" id="eq_eq" />EQ</label>
+
+         </div>
+
+
+		  <div class="row jud d-flex justify-content-center">	         
+			<h2>What is the final step in music production that focuses on preparing a track for distribution?</h2>
+			<label for="master"><input type="radio" name="final"  value="10" id="master" />Mastering</label>
+			<label for="compose"><input type="radio" name="final" value="0" id="compose" />Composing</label>
+			<label for="mix"><input type="radio" name="final" value="0" id="mix" />Mixing</label>
+			<label for="rec"><input type="radio" name="final" value="0" id="rec" />Recording</label>
+
+         </div>
+
+
+ 		  <div class="row jud d-flex justify-content-center">	
+			<h2>What does MIDI stand for?</h2>
+			<label for="music"><input type="radio" name="midi" value="0" id="music" />Music in Digital Integration</label>
+			<label for="instrument"><input type="radio" name="midi"  value="10" id="instrument" />Musical Instrument Digital Interface</label>
+			<label for="multi"><input type="radio" name="midi" value="0" id="multi" />Multi-Instrument Data Interface</label>
+			<label for="mast"><input type="radio" name="midi" value="0" id="mast" />Master of Instrumental Digital Integration</label>
+
+         </div>
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>What is the purpose of a "metronome" in music production?</h2>
+			<label for="rec"><input type="radio" name="metronome" value="0" id="rec" />To record vocals</label>
+			<label for="add_verb"><input type="radio" name="metronome" value="0" id="add_verb" />To add reverb to a track</label>
+			<label for="time"><input type="radio" name="metronome"  value="10" id="time" />To keep time and maintain a steady beat</label>			
+			<label for="harm"><input type="radio" name="metronome" value="0" id="harm" />To create harmonies</label>
+
+         </div>
+
+
+		  <div class="row jud d-flex justify-content-center">	
+			<h2>What is the primary function of an "XLR cable" in recording?</h2>
+			<label for="synth"><input type="radio" name="xlr" value="0" id="synth" />To control synthesizers</label>
+			<label for="mic"><input type="radio" name="xlr"  value="10" id="mic" />To connect microphones and other audio equipment</label>
+			<label for="effect"><input type="radio" name="xlr" value="0" id="effect" />To apply effects to vocals</label>
+			<label for="video"><input type="radio" name="xlr" value="0" id="video" />To create visualizations for music videos</label>
+
+         </div>
+
+
+		  <div class="row">
+		    <div class="col-xs-2">
+			<button type="submit" value="Submit" class="form-control">Submit</button>
+		    </div>
+		  </div>	
+
+			</form>
+		  <div class="row jud text-center ">	
+			<h3>Your grade is: <span id="grade">__</span></h3>
+			<h5 id="grade2"></h5>
+         </div>
+          <form id="form2">
+		   <div class="row">
+		     <div class="col-xs-2">
+			 <button type="submit" value="Refresh" class="form-control">Try Again</button>
+		     </div>
+		   </div>	
+		  </form>
+        </div>
+
+<script>
+document.getElementById("form1").onsubmit = function() {
+    if (
+        document.querySelector('input[name="daw"]:checked') &&
+        document.querySelector('input[name="filter"]:checked') &&
+        document.querySelector('input[name="eq"]:checked') &&
+        document.querySelector('input[name="vol"]:checked') &&
+        document.querySelector('input[name="pop"]:checked') &&
+        document.querySelector('input[name="space"]:checked') &&
+        document.querySelector('input[name="final"]:checked') &&
+        document.querySelector('input[name="midi"]:checked') &&
+        document.querySelector('input[name="metronome"]:checked') &&
+        document.querySelector('input[name="xlr"]:checked')
+    ) {
+        daw = parseInt(document.querySelector('input[name="daw"]:checked').value);
+        filter = parseInt(document.querySelector('input[name="filter"]:checked').value);
+        eq = parseInt(document.querySelector('input[name="eq"]:checked').value);
+        vol = parseInt(document.querySelector('input[name="vol"]:checked').value);
+        pop = parseInt(document.querySelector('input[name="pop"]:checked').value);
+        space = parseInt(document.querySelector('input[name="space"]:checked').value);
+        final = parseInt(document.querySelector('input[name="final"]:checked').value);
+        midi = parseInt(document.querySelector('input[name="midi"]:checked').value);
+        metronome = parseInt(document.querySelector('input[name="metronome"]:checked').value);
+        xlr = parseInt(document.querySelector('input[name="xlr"]:checked').value);
+
+        result = daw + filter + eq + vol + pop + space + final + midi + metronome + xlr;
+
+        document.getElementById("grade").innerHTML = result;
+
+        grading = [
+            { scoreRange: { min: 0, max: 20 }, feedback: "Maybe stick to real instruments...", image: "who.jpg" },
+            { scoreRange: { min: 21, max: 40 }, feedback: "Oh, we got a beginner... keep cookin &#128077;.", image: "dad.jpg" },
+            { scoreRange: { min: 41, max: 60 }, feedback: "Maybe check out a couple more YouTube videos.", image: "dontknow.png" },
+            { scoreRange: { min: 61, max: 80 }, feedback: "Ok, I see you, almost there!", image: "hollup.jpg" },
+            { scoreRange: { min: 81, max: 100 }, feedback: "LET HIM COOOK!", image: "cookin.jpg" }
+        ];
+
+        for (i = 0; i < grading.length; i++) {
+            if (result >= grading[i].scoreRange.min && result <= grading[i].scoreRange.max) {
+                result2 = grading[i].feedback + "<br /><img src='" + grading[i].image + "' width='300'  />";
+            }
+        }
+
+        document.getElementById("grade2").innerHTML = result2;
+    } else {
+        alert("Oops! Looks like you forgot to answer some questions!");
+    }
+
+    return false; // required to not refresh the page; just leave this here
+}
+
+document.getElementById("form2").onsubmit = function() {
+	location.reload();
+}
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
